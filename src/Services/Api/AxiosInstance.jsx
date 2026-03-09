@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: "http://localhost:3000/api/v1", 
+  baseURL: "https://api.surgalt.nema.gov.mn/api/v1", 
   headers: {
     "Content-Type": "application/json",
   },
@@ -29,3 +29,4 @@ const axiosInstance = axios.create({
 // );
 
 export default axiosInstance;
+
